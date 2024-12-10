@@ -19,7 +19,33 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\src\BreakOut\ball_object.cpp" />
     <ClCompile Include="..\..\src\BreakOut\BreakOut.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\game.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\game_level.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\game_object.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\glad.c" />
+    <ClCompile Include="..\..\src\BreakOut\particle_generator.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\post_processor.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\resource_manager.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\shader.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\sprite_renderer.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\texture.cpp" />
+    <ClCompile Include="..\..\src\BreakOut\text_renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\BreakOut\ball_object.h" />
+    <ClInclude Include="..\..\include\BreakOut\game.h" />
+    <ClInclude Include="..\..\include\BreakOut\game_level.h" />
+    <ClInclude Include="..\..\include\BreakOut\game_object.h" />
+    <ClInclude Include="..\..\include\BreakOut\particle_generator.h" />
+    <ClInclude Include="..\..\include\BreakOut\post_processor.h" />
+    <ClInclude Include="..\..\include\BreakOut\power_up.h" />
+    <ClInclude Include="..\..\include\BreakOut\resource_manager.h" />
+    <ClInclude Include="..\..\include\BreakOut\shader.h" />
+    <ClInclude Include="..\..\include\BreakOut\sprite_renderer.h" />
+    <ClInclude Include="..\..\include\BreakOut\texture.h" />
+    <ClInclude Include="..\..\include\BreakOut\text_renderer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -111,7 +137,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;STB_IMAGE_IMPLEMENTATION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\..\include\GeometryView;..\..\libShared\include;E:\MyCode\GeometryView\libShared\include\glad;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include\BreakOut;..\..\libShared\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
