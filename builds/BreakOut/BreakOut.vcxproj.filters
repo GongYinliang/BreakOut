@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BreakOut.cpp">
+    <ClCompile Include="..\..\src\BreakOut\BreakOut.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
