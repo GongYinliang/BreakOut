@@ -14,9 +14,9 @@
 
 void GameLevel::Load(const char *file, unsigned int levelWidth, unsigned int levelHeight)
 {
-    // clear old data
+    // 清空过期砖块
     this->Bricks.clear();
-    // load from file
+    // 加载关卡砖块
     unsigned int tileCode;
     GameLevel level;
     std::string line;
